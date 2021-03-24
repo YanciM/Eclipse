@@ -9,7 +9,7 @@ public static void main(String[] args) {
 			{1,-2,3,-4}
 		};
 		 
-    int sum=0;
+    
 		 for(int r=0; r<a.length; r++){
        if(r%2!=0){
          continue;
