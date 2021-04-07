@@ -4,7 +4,7 @@ public class ReplaceDemo {
 
 	public static void main(String[] args) {
 		
-		String var1="Hello";
+		String var1="Heello";
 		var1=var1.replace('e', 'a');  //replaced 'e' with 'a'  //we can replace the characters
 		System.out.println(var1);    
 		
