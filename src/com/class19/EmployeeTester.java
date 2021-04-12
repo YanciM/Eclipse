@@ -6,8 +6,7 @@ public class EmployeeTester {
 
         Employee juanObj=new Employee("Juan", "123", 15000,"IT");
 
-       /* Employee juanObj=new Employee();
-        juanObj.name="Juan";    bad approach*/
+        juanObj.printInfo();
 
     }
 
