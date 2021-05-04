@@ -18,7 +18,7 @@ Car(String insuranceName, String carModel){
 }
     @Override
     void getQuote() {
-        System.out.println("What will my car insurance quote be?");
+        System.out.println("What will my car insurance quote be on my "+carModel+"?");
     }
 
     @Override
@@ -35,7 +35,7 @@ Pet(String insuranceName, String petType){
 }
     @Override
     void getQuote() {
-        System.out.println("What will my pet insurance quote be?");
+        System.out.println("What will my pet insurance quote be for my "+petType+"?");
     }
 
     @Override

@@ -20,6 +20,7 @@ public class ArrayListDemo {
         System.out.println("Size before removal "+subjects.size());
         subjects.remove("Git");
         System.out.println("Size after removal "+subjects.size());
+        System.out.println(subjects.isEmpty());
 
 
     }

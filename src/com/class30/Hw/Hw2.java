@@ -1,5 +1,7 @@
 package com.class30.Hw;
 
+import com.sun.javafx.collections.VetoableListDecorator;
+
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -17,7 +19,9 @@ public class Hw2 {
         cities.add("Arlington");
         cities.add("Los Angeles");
 
-        Iterator<String> iterator = cities.iterator();
+       // cities.removeIf(city -> city.startsWith("A"));   can remove like this as well
+
+        Iterator<String>iterator= cities.iterator();
         while (iterator.hasNext()) {
             String city = iterator.next();
 

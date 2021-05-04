@@ -22,5 +22,6 @@ public class ArrayListDemo1 {
         System.out.println(subjects);
         subjects.add(4,"Selenium");
         System.out.println(subjects);
+
     }
 }
